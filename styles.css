@@ -1,0 +1,35 @@
+.box {
+    width: 30%; 
+    display: inline-block;
+    border: solid #49a1b0;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  h1{
+    text-align: center;
+    font-size:30px;
+    font-family: cursive;
+    color:#FF6F61;
+  }
+  #href{
+    font-size: 15px;
+    color: blue;
+  }
+  .a{
+    text-align: center;
+    color: #3f85da;
+    font-size:29px ;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #p{
+    font-size: 20px;
+    color:#008080 ;
+    font-family:sans-serif;
+  }
+  body{
+    background-image: url(./edu.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

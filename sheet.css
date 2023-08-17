@@ -1,0 +1,26 @@
+h1{
+    color:plum;
+    font-family:cursive;
+    text-align:center;
+    
+    
+}
+h3{
+    color:rgba(238, 130, 238, 0.825);
+}
+pre{
+    color: #00A4B4;
+    font-size: 20px;
+    font-style: oblique;
+}
+p{
+    color: #FF9785;
+}
+form{
+    color:steelblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}

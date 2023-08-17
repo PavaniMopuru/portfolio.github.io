@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(ba.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="C:\Users\Pavani\OneDrive\Desktop\HTML\sheet.css">
+    <link rel="icon" href="icon.jpeg">
+    <title>Contact_Me</title>
+    <h1>Contact_Me</h1>
+</head>
+<body>
+    <form id="contactForm">
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" required><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" required><br><br>
+        <label for="number">Number:</label>
+        <input type="number" name="number" required><br><br>
+        <label for="email">Gmail:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="text">Reason:</label>
+        <textarea type="text box" name="reason" required rows="3px" colunms="20px"></textarea><br><br>
+        <input type="submit" value="Submit">     
+    </form>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent form submission
+
+            // Show success message
+            alert('Message sent successfully!');
+
+            // Reset the form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
